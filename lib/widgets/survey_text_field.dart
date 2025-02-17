@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+/// Custom text field widget with consistent styling for the survey form.
+/// Includes validation, icons, and underline decoration.
 class SurveyTextField extends StatelessWidget {
   final TextEditingController controller;
   final String hint;

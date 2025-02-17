@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'step_three.dart';
 
+/// Second step of the survey collecting academic experience feedback.
+/// Handles satisfaction ratings and course evaluations.
 class StepTwo extends StatefulWidget {
   final String name;
   final String email;

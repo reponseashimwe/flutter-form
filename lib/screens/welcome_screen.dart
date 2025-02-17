@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'survey/step_one.dart';
 
+/// Initial screen of the application displaying survey introduction
+/// and start button to begin the survey process.
 class WelcomeScreen extends StatelessWidget {
   const WelcomeScreen({super.key});
 
