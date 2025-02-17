@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'success_screen.dart';
 import '../../validators.dart';
 
+/// Final step of the survey collecting facility usage information.
+/// Handles multiple selection of campus facilities and additional comments.
 class StepThree extends StatefulWidget {
   final String name;
   final String email;

@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 
+/// Confirmation screen shown after successful survey submission.
+/// Displays thank you message and option to return home.
 class SuccessScreen extends StatelessWidget {
   final String name;
 

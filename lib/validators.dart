@@ -1,4 +1,7 @@
+/// Provides validation methods for form fields in the survey application.
 class Validators {
+  /// Validates a name field. Returns error message if invalid, null if valid.
+  /// Checks for empty values, minimum length, and valid characters.
   static String? validateName(String? value) {
     if (value == null || value.isEmpty) {
       return 'Please enter your name';
@@ -12,6 +15,8 @@ class Validators {
     return null;
   }
 
+  /// Validates an email address. Returns error message if invalid, null if valid.
+  /// Checks for empty values and proper email format.
   static String? validateEmail(String? value) {
     if (value == null || value.isEmpty) {
       return 'Please enter your email';
@@ -22,6 +27,8 @@ class Validators {
     return null;
   }
 
+  /// Validates date of birth. Returns error message if invalid, null if valid.
+  /// Checks format, future dates, and minimum age requirement.
   static String? validateDOB(String? value) {
     if (value == null || value.isEmpty) {
       return 'Please select your date of birth';
@@ -47,6 +54,8 @@ class Validators {
     return null;
   }
 
+  /// Validates phone numbers. Returns error message if invalid, null if valid.
+  /// Checks for proper format and minimum length.
   static String? validatePhone(String? value) {
     if (value == null || value.isEmpty) {
       return 'Please enter your phone number';
@@ -57,6 +66,7 @@ class Validators {
     return null;
   }
 
+  /// Validates address field. Returns error message if empty, null if valid.
   static String? validateAddress(String? value) {
     if (value == null || value.isEmpty) {
       return 'Please enter your address';
@@ -65,6 +75,8 @@ class Validators {
     return null;
   }
 
+  /// Validates student ID. Returns error message if invalid, null if valid.
+  /// Checks for proper format with alphanumeric characters.
   static String? validateStudentId(String? value) {
     if (value == null || value.isEmpty) {
       return 'Please enter your student ID';

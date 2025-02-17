@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 import 'screens/welcome_screen.dart';
 
+/// Main entry point for the student survey application.
+/// Sets up the theme and initial route.
 void main() {
   runApp(const MyApp());
 }

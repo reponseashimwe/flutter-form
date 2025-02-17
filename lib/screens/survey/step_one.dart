@@ -4,6 +4,8 @@ import 'step_two.dart';
 import '../../validators.dart';
 import 'package:intl/intl.dart';
 
+/// First step of the survey collecting personal information.
+/// Handles user details including name, email, phone, address and DOB.
 class StepOne extends StatefulWidget {
   const StepOne({super.key});
 
